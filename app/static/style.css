@@ -1,0 +1,296 @@
+
+body{
+  background: #41295a;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2F0743, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2F0743, #41295a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.no-display {
+    display: none;
+    max-width: 100%;
+    height: auto;
+}
+
+.center {
+    margin: auto;
+    padding: 10px 50px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.container {
+      text-align: center;
+    }
+
+
+.text-block {
+/*   background-color: black; */
+  color: white;
+  padding: 10px;
+/*   opacity: 0.2; */
+  font-size: 13px
+}    
+.title {
+    font-size: 50px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #f5ff3b;
+    text-shadow: 3px -1px 7px #C7CE2A;
+    Background: FFFFFF;
+    -webkit-text-stroke: 1px  skyblue;
+
+}
+
+.content {
+    margin-top: 4em;
+}
+
+.analyze {
+    margin-top: 4em;
+}
+.removal{
+    margin-top: 1em;
+}
+.upload-label {
+    padding: 16px;
+    font-size: 12px;
+  color: white;
+  text-shadow: 5px 5px 15px white
+    text-decoration-style: double;
+}
+
+.result-label {
+    margin-top: 0.5em;
+    padding: 7px;
+    font-size: 13px;
+}
+
+button.choose-file-button {
+    width: 200px;
+    height: 40px;
+    border-radius: 12px;
+    background-color: #f6f7c3;
+    border: solid 3.5px #8b1be0;
+    font-size: 15px;
+    color: #000000;
+  
+}
+
+button.analyze-button {
+    width: 200px;
+    height: 40px;
+    border: solid 1px #7052CB;
+    border-radius: 2px;
+    background-color: #7052CB;
+    font-size: 13px;
+    color: #ffffff;
+}
+
+button.download-button {
+    width: 200px;
+    height: 40px;
+    border: solid 1px #7052CB;
+    border-radius: 2px;
+    background-color: #7052CB;
+    font-size: 13px;
+    color: #ffffff;
+}
+
+
+
+
+button:focus {
+    outline: 10;
+}
+
+
+.footer-heart{text-align:center;font-family: open sans, sans-serif;}
+
+.footer-heart a{solid #453886;color:white;padding-bottom: .25em; text-decoration: none;}
+.footer-heart a.made_by{border-bottom: 1px solid #453886;color:white;padding-bottom: .25em; text-decoration: none;}
+.footer-heart a.made_by:hover{color:#2196f3; background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: 20%;
+  border-bottom: 0;
+  padding-bottom: .3em;
+  text-decoration: none;}
+
+.emoji{vertical-align: middle;}
+
+.input-hidden {
+  position: absolute;
+  left: -9999px;
+}
+
+
+body{
+  background: #41295a;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2F0743, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2F0743, #41295a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.no-display {
+    display: none;
+    max-width: 100%;
+    height: auto;
+}
+
+.center {
+    margin: auto;
+    padding: 10px 50px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.title {
+    font-size: 50px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #f5ff3b;
+    text-shadow: 3px -1px 7px #C7CE2A;
+    Background: FFFFFF;
+    -webkit-text-stroke: 1px  skyblue;
+
+}
+
+.content {
+    margin-top: 4em;
+}
+
+.analyze {
+    margin-top: 4em;
+}
+
+.removal {
+    margin-top: 4em;
+}
+
+.upload-label {
+    padding: 16px;
+    font-size: 12px;
+  color: white;
+  text-shadow: 5px 5px 15px white
+    text-decoration-style: double;
+}
+
+.result-label {
+    margin-top: 0.5em;
+    padding: 7px;
+    font-size: 13px;
+}
+
+button.choose-file-button {
+    width: 200px;
+    height: 40px;
+    border-radius: 12px;
+    background-color: #f6f7c3;
+    border: solid 3.5px #8b1be0;
+    font-size: 15px;
+    color: #000000;
+  
+}
+
+button.analyze-button {
+    width: 200px;
+    height: 40px;
+    border: solid 1px #7052CB;
+    border-radius: 2px;
+    background-color: #7052CB;
+    font-size: 13px;
+    color: #ffffff;
+}
+button.removal-button {
+    width: 200px;
+    height: 40px;
+    border: solid 1px #7052CB;
+    border-radius: 2px;
+    background-color: #7052CB;
+    font-size: 13px;
+    color: #ffffff;
+}
+
+button.download-button {
+    width: 200px;
+    height: 40px;
+    border: solid 1px #7052CB;
+    border-radius: 2px;
+    background-color: #7052CB;
+    font-size: 13px;
+    color: #ffffff;
+}
+
+
+
+
+button:focus {
+    outline: 10;
+}
+
+
+.footer-heart{text-align:center;font-family: open sans, sans-serif;}
+
+.footer-heart a{solid #453886;color:white;padding-bottom: .25em; text-decoration: none;}
+.footer-heart a.made_by{border-bottom: 1px solid #453886;color:white;padding-bottom: .25em; text-decoration: none;}
+.footer-heart a.made_by:hover{color:#2196f3; background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: 20%;
+  border-bottom: 0;
+  padding-bottom: .3em;
+  text-decoration: none;}
+
+.emoji{vertical-align: middle;}
+
+.input-hidden {
+  position: absolute;
+  left: -9999px;
+}
+
+
+
+/*
+ | //lea.verou.me/css3patterns
+ | Because white bgs are boring.
+*/
+
+.page {
+    margin: 1em auto;
+    max-width: 768px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+
+
+.options label,
+.options input{
+    width:4em;
+    padding:0.5em 1em;
+}
+.btn{
+    background:white;
+    color:black;
+    border:1px solid black;
+    padding: 0.5em 1em;
+    text-decoration:none;
+    margin:0.8em 0.3em;
+    display:inline-block;
+    cursor:pointer;
+}
+
+.hide {
+    display: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/*
+ | //lea.verou.me/css3patterns
+ | Because white bgs are boring.
+*/

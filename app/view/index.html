@@ -1,0 +1,51 @@
+<html lang='en'>
+
+<head>
+  <meta charset='utf-8'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet' href='../static/style.css'>
+  <script src='../static/client.js'></script>
+</head>
+
+<body>
+  <div>
+    <div class='center'>
+      <div class='title'>No Glass</div>
+      <div class='content'>
+        <div class='no-display'>
+          <input id='file-input' class='no-display' type='file' name='file' accept='image/*' onchange='showPicked(this)'>
+        </div>
+        <button class='choose-file-button' type='button' onclick='showPicker()'>Upload Image</button>
+        <div class='upload-label'>
+          <label id='upload-label'>No file chosen</label>
+        </div>
+        <div>
+          <img id='image-picked' class='no-display' alt='Chosen Image' width=400>
+        </div>
+        <div class="centered">
+          <div class="text-block">👉 Photos sent to the server will be automatically deleted.
+            <br>👉Please select a photo of your face/any celebrity face with glasses
+            <br>👉 Photos with frontal pose will give better results👨‍🦱👩‍🦰
+            <br>👉 <b>results will be biased, will try to improve</b> 
+          </div>
+        </div>
+        <div class='removal'>
+          <button id='removal-button' class='removal-button' type='button' onclick='removal()'>remove glasses</button>
+        </div>
+        <div class='result-label'>
+          <label id='result-label'></label>
+        </div>
+        <div>
+          <img id='image-result' class='no-display' alt='Chosen Image' height='350'>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<p class="footer-heart"> <a>Made with</a> 
+  <g-emoji class="g-emoji" alias="heart" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png">
+    <img class="emoji" alt="heart" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png">
+  </g-emoji> <a> by</a>  <a class="made_by" href="https://linkedin.com/in/ashish-veeragoni">Ashish</a>
+</p>
+
+</html>

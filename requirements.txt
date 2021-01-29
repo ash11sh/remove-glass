@@ -1,0 +1,20 @@
+-f https://download.pytorch.org/whl/torch_stable.html
+torch==1.7.1+cpu
+torchvision==0.8.2+cpu 
+torchaudio==0.7.2 
+gunicorn
+aiofiles
+aiohttp
+asyncio
+Pillow
+numpy
+python-multipart
+starlette
+uvicorn
+opencv-python-headless
+dominate>=2.4.0
+visdom>=0.1.8.8
+packaging
+GPUtil>=1.4.0
+scikit-image
+
