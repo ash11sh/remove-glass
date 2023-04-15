@@ -1,5 +1,10 @@
 # removal of eye glasses (web-app)
 
+
+hosted on hugging-face space now 
+
+[![Hugging Face](https://img.shields.io/badge/Demo-%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/spaces/ash11sh/erase_eye_glass) 
+
 Deployment of image to image translation model as a web-app.
 
 #### model details
