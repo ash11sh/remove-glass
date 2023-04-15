@@ -41,4 +41,4 @@ Run the web-app locally using command - `python app/server.py serve`
 
 [Waifu2x-PyTorch implementation](https://github.com/yu45020/Waifu2x)
 
-[face restoration](https://github.com/sczhou/CodeFormer) [latest addition]
+[face restoration](https://github.com/sczhou/CodeFormer) [latest addition for improving faces after generation]
