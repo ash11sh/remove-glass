@@ -226,7 +226,8 @@ async def removal(request):
         img = Image.composite(im, ori_im, mask)
 
         # upscale the image
-        img = upscale(img, model_cran_v2)
+        #(this not helpful)
+        #img = upscale(img, model_cran_v2)
 
         # scale image to original size
         img = img.resize((width, height))
