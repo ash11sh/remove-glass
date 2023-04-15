@@ -33,9 +33,11 @@ from pathlib import Path
 from copy import deepcopy
 from Models import *
 
+from codeformer.app import inference_app
+
 
 os.environ["LRU_CACHE_CAPACITY"] = "1"
-port = int(os.environ.get("PORT", 5001))
+port = int(os.environ.get("PORT", 7860))
 
 
 path = Path(__file__).parent
@@ -210,6 +212,10 @@ async def removal(request):
 
         # change img size and orientation (exif remover)
         im = ImageOps.exif_transpose(im)
+
+        # upscale
+        # im = upscale(im, model_cran_v2)
+        
         width, height = im.size
         ori_im = im.copy()
 
@@ -218,6 +224,7 @@ async def removal(request):
 
         # send image to model to remove glasses
         im = cutgan(im)
+        
 
         # composite original image and output based on mask
         w, h = im.size
@@ -226,14 +233,20 @@ async def removal(request):
         img = Image.composite(im, ori_im, mask)
 
         # upscale the image
-        #(this not helpful)
-        #img = upscale(img, model_cran_v2)
+        # img = upscale(img, model_cran_v2)
 
         # scale image to original size
         img = img.resize((width, height))
         img.save("app/removal.png")
 
-    return FileResponse("app/removal.png", media_type="image/png")
+        inference_app(
+          image="app/removal.png",
+          background_enhance=False,
+          face_upsample=False,
+          upscale=2,
+          codeformer_fidelity=0.5,)
+
+    return FileResponse("output/out.png", media_type="image/png")
 
 
 if __name__ == "__main__":
