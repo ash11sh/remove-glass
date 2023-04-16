@@ -1,5 +1,7 @@
 # removal of eye glasses (web-app)
 
+### [find updated code here](https://huggingface.co/spaces/ash11sh/remove_eye_glass)
+
 
 hosted on hugging-face space now 
 
